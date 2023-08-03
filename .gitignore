@@ -1,0 +1,38 @@
+# Ignore Composer's vendor folder
+/vendor/
+
+# Ignore the PHPStorm IDE-specific .idea folder
+/.idea/
+
+# Ignore any log files
+*.log
+
+# Ignore any temporary files
+*.tmp
+
+# Ignore Composer's autoloader
+autoload.php
+
+# Ignore Composer's generated autoload files
+/composer.lock
+/composer.phar
+
+# Ignore any local development configuration files
+/config.php
+
+# Ignore any sensitive files or keys
+/.env
+
+# Ignore any backup files
+*~
+
+# Ignore any DS_Store files (macOS)
+.DS_Store
+
+# Ignore any Thumbs.db files (Windows)
+Thumbs.db
+
+# Ignore any log files from PHPUnit tests (optional)
+/phpunit.log
+/phpunit.xml
+
